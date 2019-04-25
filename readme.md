@@ -24,10 +24,31 @@ Type:
 $ npm start
 ```
 
-The endpoint will be on:
+The server and endpoint will be on:
 ```sh
-http://localhost:4000
+http://localhost:4000/
 ```
+
+
+Call the API
+---------------
+To call the API use the endpoint above and use this header:
+```
+'content-type' : 'application/json'
+```
+And the body:
+```
+{
+    query: "queries here"
+}
+
+// example:
+
+{
+    query: "queries{ jobs{ id } }"
+}
+```
+The query will be explained further below
 
 Making Query
 ---------------
