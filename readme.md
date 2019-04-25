@@ -45,7 +45,7 @@ And the body:
 // example:
 
 {
-    query: "queries{ jobs{ id } }"
+    query: "queries{ jobs{ id \n origin \n destination } }"
 }
 ```
 The query will be explained further below

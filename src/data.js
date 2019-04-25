@@ -41,6 +41,22 @@ const bidData = [
       "transporter_rating": 4.5,
       "price": 4500000,
       "vehicle_name": "Tronton"
+    },
+    {
+      "id": 3,
+      "job_id": 1,
+      "transporter_name": "fadhlan hazmi",
+      "transporter_rating": 4.6,
+      "price": 8500000,
+      "vehicle_name": "Hino"
+    },
+    {
+      "id": 4,
+      "job_id": 2,
+      "transporter_name": "hazmi fadhlan",
+      "transporter_rating": 3.6,
+      "price": 500000,
+      "vehicle_name": "Izuzu"
     }
 ];
 
