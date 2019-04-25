@@ -1,10 +1,10 @@
 {
   "name": "jobbidswebservice",
   "version": "1.0.0",
-  "description": "Webservice API for Kargo Tech's Job Bids",
+  "description": "Webservice API for Kargo Tech's Jobs and Bids",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha src/tests/*.test.js"
   },
   "author": "Fadhlan Hazmi",
   "license": "ISC",
@@ -12,5 +12,10 @@
     "express": "^4.16.4",
     "express-graphql": "^0.8.0",
     "graphql": "^14.2.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.2.1",
+    "mocha": "^6.1.4"
   }
 }
